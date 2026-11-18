@@ -1,8 +1,11 @@
 # Homebrew tap
 
 ```sh
+brew trust schultzisaiah/tap
 brew install --cask schultzisaiah/tap/psst-reminders
 ```
+
+Homebrew asks you to trust a tap before it loads anything from it; the first line does that once.
 
 | Cask | App |
 |---|---|
