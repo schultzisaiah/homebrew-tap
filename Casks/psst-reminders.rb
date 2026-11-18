@@ -1,6 +1,6 @@
 cask "psst-reminders" do
-  version "0.2.0"
-  sha256 "18c372c6c7bf348f90b9034eac500983628edef1718b7126ccf7508e6961d299"
+  version "0.3.0"
+  sha256 "56c22599c0eb35f0d64d07cd7270ef795a3017d5fcecbabd190cf97c321a4d5e"
 
   url "https://github.com/schultzisaiah/psst-macos/releases/download/v#{version}/Psst-#{version}.dmg"
   name "Psst"
