@@ -1,6 +1,6 @@
 cask "touche" do
-  version "0.2.1"
-  sha256 "038f66112b5c0c4eb3eb4feb2cf7bcb9bd087faddc48e324c33ac824a62d432e"
+  version "0.3.0"
+  sha256 "394297c01dba0ec3bc974dfecfa83e57eb179fc19da6d4fdf00cfbf97ac8b688"
 
   url "https://github.com/schultzisaiah/touche/releases/download/v#{version}/Touche-#{version}.dmg"
   name "Touché"
