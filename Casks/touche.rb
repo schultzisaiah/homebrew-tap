@@ -1,6 +1,6 @@
 cask "touche" do
-  version "0.1.0"
-  sha256 "8737767f16b150f365730c27d4b2ae51878bd308b75d94a8d700748e37a479ef"
+  version "0.1.1"
+  sha256 "a5c2b20870e823337cbcfc1cb66634680e0b4b6ddad15634f27f07f198494366"
 
   url "https://github.com/schultzisaiah/touche/releases/download/v#{version}/Touche-#{version}.dmg"
   name "Touché"
@@ -16,7 +16,10 @@ cask "touche" do
 
   app "Touché.app"
 
-  uninstall quit: "dev.isaiah.touche"
+  uninstall quit: "heliopolis.p3x972.touche"
 
-  zap trash: "~/Library/Preferences/dev.isaiah.touche.plist"
+  zap trash: [
+    "~/Library/Preferences/dev.isaiah.touche.plist",
+    "~/Library/Preferences/heliopolis.p3x972.touche.plist",
+  ]
 end
